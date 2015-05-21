@@ -22,5 +22,5 @@ Install it in the project
 
 ### Other resources
 
-[Check this out](http://blog.edouard-lopez.com/testing-bower-dot-json-locally-before-registering-package/)
+[Using Bower Locally](http://blog.edouard-lopez.com/testing-bower-dot-json-locally-before-registering-package/)
 
