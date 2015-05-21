@@ -1,0 +1,41 @@
+.thumbcards {
+
+  @extend .list-inline;
+  padding: 0 2%;
+
+  & > li {
+    display: inline-table;
+    vertical-align: top;
+
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+      width: 48%;
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: 24%;
+    }
+
+    @media (min-width: $screen-lg-min) {
+      width: 19%;
+    }
+
+    a {
+      padding: 0;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .caption {
+    padding: 11px;
+  }
+
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.gallery {
+  text-align: center;
+
+  @extend .list-inline;
+
+  .gallery-box {
+    margin: 14px auto;
+    width: 100%;
+    vertical-align: top;
+
+    @media (min-width: $screen-sm-min) {
+      width: (98.997% / 2);
+    }
+
+    @media (min-width: $screen-md-min) {
+      width: (98.997% / 3);
+    }
+
+    @media (min-width: $screen-lg-min) {
+      width: (98.997% / 4);
+    }
+
+    img {
+
+      @extend .img-responsive;
+
+    }
+
+    .svgicon { }
+
+    .gallery-box-title {}
+
+    .gallery-box-caption {
+      padding: 7px 14px;
+    }
+  }
+}

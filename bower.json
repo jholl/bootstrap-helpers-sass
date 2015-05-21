@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-helpers-sass",
+  "version": "1.0.0",
+  "authors": [
+    "jholl <holland.jb@gmail.com>"
+  ],
+  "description": "Bootstrap-like components to use with Bootstrap",
+  "main": "manifest.scss",
+  "keywords": [
+    "Bootstrap",
+    "Sass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/midoil/bootstrap-helpers-sass",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

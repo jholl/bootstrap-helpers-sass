@@ -1,0 +1,21 @@
+@mixin icon-color($name, $color, $pct: 15%) {
+  .icon-#{$name} {
+    fill: $color;
+
+    &:hover {
+      fill: darken($color, $pct);
+    }
+  }
+}
+
+@mixin icon-state($name, $color, $pct: 15%) {
+  .#{$name} > svg,
+  .#{$name} > a > svg, // likely li > a > stuff
+  svg.#{$name} {
+    fill: $color;
+
+    &:hover {
+      fill: darken($color, $pct);
+    }
+  }
+}

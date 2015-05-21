@@ -1,0 +1,23 @@
+.alert-flash {
+  position: fixed;
+  width: 300px;
+  right: 15px;
+  bottom: 75px;
+  box-shadow: 0 0 2px rgba(0,0,0,.35);
+
+  &.alert-success {
+    @include alert-variant(rgba($alert-success-bg,.85), $alert-success-border, $alert-success-text);
+  }
+
+  &.alert-info {
+    @include alert-variant(rgba($alert-info-bg,.85), $alert-info-border, $alert-info-text);
+  }
+
+  &.alert-warning {
+    @include alert-variant(rgba($alert-warning-bg,.85), $alert-warning-border, $alert-warning-text);
+  }
+
+  &.alert-danger {
+    @include alert-variant(rgba($alert-danger-bg,.85), $alert-danger-border, $alert-danger-text);
+  }
+}

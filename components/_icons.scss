@@ -1,0 +1,55 @@
+/* #ICONS */
+
+// Custom .scss file for SVG
+// set default svg styling here (to correspond with gulpfile output)
+// be sure to include this .scss file in the main app manifest compile
+
+.svgicon {
+  @include square(50px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn .svgicon {
+  @include square(18px);
+  fill: #fff;
+}
+
+.nav.navbar-nav .svgicon {
+  @include square(20px);
+}
+
+@include icon-color('brands-facebook', $color-facebook);
+@include icon-color('brands-twitter', $color-twitter);
+@include icon-color('brands-instagram', $color-instagram);
+@include icon-color('brands-youtube', $color-youtube);
+
+@include icon-state('active', $link-color);
+@include icon-state('disabled', $btn-link-disabled-color);
+@include icon-state('success', $btn-success-color);
+@include icon-state('info', $btn-info-color);
+@include icon-state('danger', $btn-danger-color);
+
+.glyphicon-facebook {
+  color: $color-facebook;
+}
+
+.icon-brands-facebook {
+  fill: $color-facebook;
+}
+
+.glyphicon-instagram {
+  color: $color-instagram;
+}
+
+.icon-brands-instagram {
+  fill: $color-instagram;
+}
+
+.glyphicon-envelope {
+  color: $brand-warning;
+}
+
+.glyphicon-leaf {
+  color: $brand-success;
+}
